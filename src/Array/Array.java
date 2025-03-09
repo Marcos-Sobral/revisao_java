@@ -48,7 +48,31 @@ public class Array {
         }
     }
 
-    public static void main(String[] args) {
+    public static boolean buscarNumero(int[] numeros, int numeroBuscado){
+        for (int numero : numeros) {
+            if (numero == numeroBuscado) {
+                return true;
+            }
+        }
+        return false;
+    }
 
+    public static void main(String[] args) {
+        int[] numeros = new int[5];
+        Scanner entrada = new Scanner(System.in);
+
+        //entrada de dados
+        for(int i = 0; i < numeros.length; i++){
+                System.out.println("Informe um número inteiro para a posição " + (i + 1) + ":");
+            numeros[i] = entrada.nextInt();
+        }
+        System.out.println("\nDigite um número para buscar");
+        int numeroBuscado = entrada.nextInt();
+
+        if (buscarNumero(numeros, numeroBuscado)) {
+            System.out.println("O número " + numeroBuscado + " está no array!");
+        } else {
+            System.out.println("O número " + numeroBuscado + " NÃO está no array.");
+        }
     }
 }

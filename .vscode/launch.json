@@ -1,0 +1,112 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExArrayList",
+            "request": "launch",
+            "mainClass": "Array.ExArrayList",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "NotaAluno",
+            "request": "launch",
+            "mainClass": "NotaAluno",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Matrizes",
+            "request": "launch",
+            "mainClass": "Array.Matrizes",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array.Array",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Calculadora",
+            "request": "launch",
+            "mainClass": "Calculadora",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Condicionais",
+            "request": "launch",
+            "mainClass": "Condicionais",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploFor",
+            "request": "launch",
+            "mainClass": "ExemploFor",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploMetodo",
+            "request": "launch",
+            "mainClass": "ExemploMetodo",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploMetodoCalc",
+            "request": "launch",
+            "mainClass": "ExemploMetodoCalc",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploMetodoCalc_input",
+            "request": "launch",
+            "mainClass": "ExemploMetodoCalc_input",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploMetodoPessoa",
+            "request": "launch",
+            "mainClass": "ExemploMetodoPessoa",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "ExemploWhile",
+            "request": "launch",
+            "mainClass": "ExemploWhile",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Variaveis",
+            "request": "launch",
+            "mainClass": "Variaveis",
+            "projectName": "projeto01_6c6e8e67"
+        }
+    ]
+}
