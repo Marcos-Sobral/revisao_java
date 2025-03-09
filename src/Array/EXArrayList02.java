@@ -21,17 +21,20 @@ public class EXArrayList02 {
         Scanner entrada = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<>(Arrays.asList(10,20,30,40,50));
         
-        System.out.println("Digite um número que você deseja Adicionar: ");
-        int numeroAdicionar = entrada.nextInt();
-        adicionarNumero(numeroAdicionar, numeros);
+        System.out.println("Digite os números que você deseja adicionar (separados por espaço): ");
+        String numeroAdicionar = entrada.nextLine();
+        for (String num: numeroAdicionar.split(" ")) {
+            adicionarNumero(Integer.parseInt(num), numeros);
+        }
         
         System.out.println("Lista após adição: " + numeros);
 
         //Remover um número digitado pelo usário
-        System.out.println("Digite um número que você deseja remover: ");
-        int numeroRemover = entrada.nextInt();
-
-        removerNumero(numeroRemover, numeros);
+        System.out.println("Digite os números que você deseja remover (separados por espaço): ");
+        String numeroRemover = entrada.nextLine();
+        for (String num : numeroRemover.split(" ")) {
+            removerNumero(Integer.parseInt(num), numeros);
+        }
 
         // Exibir a lista após remoção
         System.out.println("Lista atualizada: " + numeros);
