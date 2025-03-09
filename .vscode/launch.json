@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EXArrayList02",
+            "request": "launch",
+            "mainClass": "Array.EXArrayList02",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "ExArrayList",
             "request": "launch",
             "mainClass": "Array.ExArrayList",
