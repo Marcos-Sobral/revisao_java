@@ -41,7 +41,22 @@ class Convidados{
 public class EXArrayList03 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        List<Convidados> convidados_list =  new ArrayList<>(Arrays.asList(
+        List<Convidados> convidados_list = criarLista();
+        System.out.println("Seja bem vindo a Lista de convidados do casamento de Marcos e ébora");
+
+        receberDados(entrada, convidados_list);
+
+        for (Convidados i : convidados_list) {
+            System.out.println(i.exibirLista());
+        }
+    }
+
+    //Método de Fábrica (Factory Method)
+    /*
+    Um método de fábrica (criarListaDeConvidados()) cria e retorna a lista de convidados. Isso ajuda a manter o código organizado e facilita a reutilização.
+     */
+    public static List<Convidados> criarLista() {
+        List<Convidados> lista = new ArrayList<>(Arrays.asList(
             new Convidados("Irailde Sobral", "Geladeira", "SIM"),
             new Convidados("Karol Sobral", "Casa no Jardim Aulídia", "SIM"),
             new Convidados("Eranildo Sobral", "Armário", "SIM"),
@@ -51,13 +66,8 @@ public class EXArrayList03 {
             new Convidados("Ivanilde Sobral", "Cama Box King", "SIM"),
             new Convidados("Cláudio e Valdirene", "Máquina de lavar", "SIM")
         ));
-        System.out.println("Seja bem vindo a Lista de convidados do casamento de Marcos e ébora");
 
-        receberDados(entrada, convidados_list);
-
-        for (Convidados i : convidados_list) {
-            System.out.println(i.exibirLista());
-        }
+        return lista;
     }
 
     public static void receberDados(Scanner entrada, List<Convidados> listaConvidados) {
