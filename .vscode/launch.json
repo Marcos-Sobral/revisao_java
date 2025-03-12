@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exemplo01",
+            "request": "launch",
+            "mainClass": "HashMap.exemplo01",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "EXArrayList03",
             "request": "launch",
             "mainClass": "Array.EXArrayList03",
