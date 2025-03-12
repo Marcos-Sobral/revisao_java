@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "treeSet",
+            "request": "launch",
+            "mainClass": "HashMap.treeSet",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "linkedHash",
+            "request": "launch",
+            "mainClass": "HashMap.linkedHash",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "hashSet",
+            "request": "launch",
+            "mainClass": "HashMap.hashSet",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "exemplo01",
             "request": "launch",
             "mainClass": "HashMap.exemplo01",
