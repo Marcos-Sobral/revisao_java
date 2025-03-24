@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "POO.Main",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "PilhasSearch",
+            "request": "launch",
+            "mainClass": "Filas.PilhasSearch",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Pilhas",
+            "request": "launch",
+            "mainClass": "Filas.Pilhas",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "QueueSuportList",
+            "request": "launch",
+            "mainClass": "Filas.QueueSuportList",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "deque",
+            "request": "launch",
+            "mainClass": "Filas.deque",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "queue",
+            "request": "launch",
+            "mainClass": "Filas.queue",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "treeSet",
             "request": "launch",
             "mainClass": "HashMap.treeSet",
