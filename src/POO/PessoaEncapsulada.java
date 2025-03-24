@@ -12,7 +12,7 @@ public class PessoaEncapsulada {
         return nome;
     }
 
-    // Método para definir a idade com validação
+   
     public void setIdade(int idade){
         if(idade >= 0){
             this.idade = idade;
@@ -27,12 +27,24 @@ public class PessoaEncapsulada {
         return idade;
     }
 
+    //Construtor Utilizando Métodos Setters no Construtor
     PessoaEncapsulada(String nome, int idade){
         setNome(nome);
         setIdade(idade);
     }
 
-    void apresentar(){
-        System.out.println("Olá, meu nome é " + nome + " e tenho " + idade + " anos.");
+    public void exibirDados() {
+        System.out.println(nome + " tem " + idade + " anos.");
     }
 }
+
+/*Vantagas e desvantagens
+    ✅ Vantagens:
+    ✔ Encapsulamento: Se houver mudanças na lógica de validação, basta alterar os métodos setNome() ou setIdade(), sem modificar o construtor.
+    ✔ Reutilização de código: A validação da idade já está no setIdade(), então qualquer outra parte do código que chame setIdade() terá a mesma validação.
+    ✔ Mais flexível: Permite que atributos sejam alterados após a criação do objeto sem precisar duplicar a validação.
+
+    ❌ Desvantagem:
+
+    Desempenho ligeiramente menor, pois há chamadas extras de métodos dentro do construtor.
+ */

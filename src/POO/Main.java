@@ -5,14 +5,14 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<PessoaEncapsulada> pessoas = new ArrayList<>();
+        ArrayList<PessoaEncapsulada2> pessoas = new ArrayList<>();
 
-        pessoas.add(new PessoaEncapsulada("Marcos", 24));
-        pessoas.add(new PessoaEncapsulada("Débora", 25));
-        pessoas.add(new PessoaEncapsulada("Lorran", 24));
+        pessoas.add(new PessoaEncapsulada2("Marcos", 24));
+        pessoas.add(new PessoaEncapsulada2("Débora", 25));
+        pessoas.add(new PessoaEncapsulada2("Lorran", 24));
         
-        for (PessoaEncapsulada pessoa : pessoas) {
-            pessoa.apresentar();
+        for (PessoaEncapsulada2 pessoa : pessoas) {
+            pessoa.exibirDados();
         }
 
         /*Objeto encapsulado 
