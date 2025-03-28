@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Empresa",
+            "request": "launch",
+            "mainClass": "POO.Empresa",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Zoo",
+            "request": "launch",
+            "mainClass": "POO.Zoo",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Zoo",
+            "request": "launch",
+            "mainClass": "POO.Heranca.Zoo",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "POO.Heranca.Teste",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "POO.Heranca.Main",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "POO.Main",

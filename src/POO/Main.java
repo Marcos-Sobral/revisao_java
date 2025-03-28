@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<PessoaEncapsulada2> pessoas = new ArrayList<>();
+        ArrayList<Pessoa> pessoas = new ArrayList<>();
 
-        pessoas.add(new PessoaEncapsulada2("Marcos", 24));
-        pessoas.add(new PessoaEncapsulada2("Débora", 25));
-        pessoas.add(new PessoaEncapsulada2("Lorran", 24));
+        pessoas.add(new Pessoa("Marcos", 24));
+        pessoas.add(new Pessoa("Débora", 25));
+        pessoas.add(new Pessoa("Lorran", 24));
         
-        for (PessoaEncapsulada2 pessoa : pessoas) {
+        for (Pessoa pessoa : pessoas) {
             pessoa.exibirDados();
         }
 

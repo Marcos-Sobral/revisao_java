@@ -1,4 +1,4 @@
-
+package POO;
 
 import java.util.ArrayList;
 
@@ -48,7 +48,7 @@ class Cobra extends Animal{
     }
 }
 
-public class App {
+public class Zoo {
     public static void main(String[] args) {
         ArrayList<Animal> animais = new ArrayList<>();
 
