@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterfaceMultipla",
+            "request": "launch",
+            "mainClass": "POO.InterfaceMultipla",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "interface01",
+            "request": "launch",
+            "mainClass": "POO.interface01",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
+            "name": "Transporte",
+            "request": "launch",
+            "mainClass": "POO.Transporte",
+            "projectName": "projeto01_6c6e8e67"
+        },
+        {
+            "type": "java",
             "name": "Empresa",
             "request": "launch",
             "mainClass": "POO.Empresa",
